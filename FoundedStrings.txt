@@ -1,0 +1,12 @@
+maps\mod_cabcon\_load_functions.gsc:		ai = spawn_zombie( spawn_point );
+maps\_zombiemode.gsc:	flag_init( "spawn_zombies", true );
+maps\_zombiemode.gsc:		if ( !flag("spawn_zombies" ) )
+maps\_zombiemode.gsc:			flag_wait( "spawn_zombies" );
+maps\_zombiemode.gsc:		ai = spawn_zombie( spawn_point ); 
+maps\_zombiemode.gsc:		ai = spawn_zombie( spawn_point );
+maps\_zombiemode_ai_dogs.gsc:			ai = spawn_zombie( level.enemy_dog_spawns[0] );
+maps\_zombiemode_ai_dogs.gsc:			ai = spawn_zombie( spawn_point );
+maps\_zombiemode_ai_dogs.gsc:			ai = spawn_zombie( spawn_point );
+maps\_zombiemode_ai_dogs.gsc:				ai = spawn_zombie( level.enemy_dog_spawns[0] );
+maps\_zombiemode_ai_dogs.gsc:				ai = spawn_zombie( spawn_point );
+maps\_zombiemode_utility.gsc:spawn_zombie( spawner, target_name ) 
